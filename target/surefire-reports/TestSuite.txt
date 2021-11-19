@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 25.62 s <<< FAILURE! - in TestSuite
+com.saatvaTest.signUp.InvalidDataSignup.createAccountwithExistingAccEmail  Time elapsed: 1.651 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"*[name='account']"}
+  (Session info: chrome=95.0.4638.69)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'Neethas-MacBook-Pro.local', ip: 'fe80:0:0:0:1835:417a:c0af:255d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: /var/folders/td/rrkq2px53jb...}, goog:chromeOptions: {debuggerAddress: localhost:52003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9535c91fdccc53f5dd0f70d5b99e29c8
+*** Element info: {Using=name, value=account}
+	at com.saatvaTest.signUp.InvalidDataSignup.createAccountwithExistingAccEmail(InvalidDataSignup.java:67)
+
+com.saatvaTest.signUp.InvalidDataSignup.errorEmailMsgVerification  Time elapsed: 6.385 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"*[name='account']"}
+  (Session info: chrome=95.0.4638.69)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'Neethas-MacBook-Pro.local', ip: 'fe80:0:0:0:1835:417a:c0af:255d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: /var/folders/td/rrkq2px53jb...}, goog:chromeOptions: {debuggerAddress: localhost:52111}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: da4706839e2b524f169da83e86ff2e84
+*** Element info: {Using=name, value=account}
+	at com.saatvaTest.signUp.InvalidDataSignup.errorEmailMsgVerification(InvalidDataSignup.java:19)
+
